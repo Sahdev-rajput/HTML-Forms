@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html forms</title>
+	<style>
+		@keyframes blinking
+		{
+			0%{color: red;}
+			25%{color: yellow;}
+			50%{color: brown;}
+			75%{color: green;}
+			100%{color: blue;}
+		}
+		#iwt{
+			font-size: 40px;
+			animation: blinking 1s infinite;
+		}
+		h1
+		{
+			text-align: center;
+		}
+		form
+		{
+			font-size: 25px;
+		}
+		body
+		{
+			background-image: url(feedback.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="Feedback.jpg" alt="logo" height="50" width="50"/>
+		<center><h1 id="iwt">Welcome to the Home Page</h1></center>
+		<time style="font-size: 25px;"><strong>22-09-2022</strong></time>
+	</header>
+	</header>
+
+
+
+
+
+	<form method="post"  action="IWT LAB.html" autocomplete="on">
+		<h1>Feedback form</h1>
+		<hr color="red">
+	<fieldset style="color: green">
+		<legend style="color:red"><strong>Your Information</strong></legend>
+<b>Name:&nbsp</b>
+<input type="text" placeholder="Enter your name" name="name" style="height: 25px; width: 200px">
+<br>
+<br>
+<b>Email:</b>
+<input type="email" name="email" placeholder="name@domain.com" required>
+<br>
+<br>
+<b>Password:&nbsp</b>
+<input type="Password" placeholder="Password">
+<br>
+<br>
+<b>Gender:&nbsp</b>
+<input type="radio" name="Gender" checked>Male
+<input type="radio" name="Gender">Female
+<br>
+<br>
+<b>Phone no.&nbsp</b>
+<select>
+	<option selected>+91</option>
+	<option>+90</option>
+	<option>+76</option>
+	<option>+10</option>
+	<option>+05</option>
+</select>
+<input type="tel" name="phone" pattern="[0-9]{10}" placeholder="XXXXXXXXXX">
+<br><br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset style="color: green"><legend style="color:red"><strong>Other Information</strong></legend><b>Things you liked</b>
+<br>
+<b>Design</b>
+<input type="checkbox" value="Design" name="thing you liked" style="height: 25px; width: 150px">
+<b>Links</b>
+<input type="checkbox" value="Links" name="thing you liked" style="height: 25px; width: 150px">
+<b>Ease of use</b>
+<input type="checkbox" value="Ease" name="thing you liked" style="height: 25px; width: 150px">
+<b>Images</b>
+<input type="checkbox" value="Images" name="thing you liked" style="height: 25px; width: 150px">
+<b>Source code</b>
+<input type="checkbox" value="Code" name="thing you liked" style="height: 25px; width: 150px">
+<br><br>
+<strong>
+Comments:
+</strong>
+<br>
+<br>
+<textarea name="Comments" rows="10" cols="40" placeholder="Enter Comments here"></textarea>
+<br>
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend style="color:red"><b>Preferences</b></legend>
+<b>Rate our site:</b>
+<select name="rating" style="height:25px; width:200px">
+	<option selected>Amazing</option>
+	<option>10</option>
+	<option>09</option><option>08</option><option>07</option><option>06</option><option>05</option><option>05</option><option>Below</option>
+</select>
+<br>
+<br>
+<b>Colour:</b>
+<input type="color" autofocus/>
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend style="color:red"><strong>Date and time</strong></legend>
+<b>Date:</b>
+<input type="Date" />
+<br>
+<br>
+<b>Date Time:</b>
+<input type="Datetime-local"/>
+<br>
+<br>
+<b>Month:</b>
+<input type="month"/>
+<br>
+<br>
+<b>Number:</b>
+<input type="number" min="0" max="10" step="1" value="4"/>
+<br>
+<br>
+<b>Range</b>
+<input type="range" min="0" max="20" value="10"/>
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend style="color: red"><strong>Query</strong></legend>
+<b>Search query:</b>
+<input type="search" placeholder="Search query"/>
+<br>
+<br>
+<b>Tel:</b>
+<input type="tel" placeholder="(###) ###-#####" pattern="\(\d{3}\)+\d{3}-\d{4}" required/>
+<br>
+<br>
+<b>Time:</b>
+<input type="time"/>
+<br>
+<br>
+<b>URL:</b>
+<input type="url" placeholder="https://www.domainname.com"/>
+<br>
+<br>
+<b>Week:</b>
+<input type="week"/>
+<br>
+<br>
+<b>Birth Month:</b>
+<input type="text" id="txtlist" placeholder="Select a month" list="months"/>
+<datalist id="months">
+	<option value="January">
+		<option value="February">
+			<option value="March">
+				<option value="April">
+					<option value="May">
+						<option value="June">
+							<option value="July">
+								<option value="August">
+									<option value="September">
+										<option value="October">
+											<option value="November">
+												<option value="December">
+</datalist>
+</fieldset>
+<center>
+<input type="Submit" value="Submit" style="height: 25px; width: 200px;">&nbsp
+<input type="reset" name="clear" style="height: 25px; width: 200px;">
+<br>
+<br>
+</center>
+</form>
+
+
+
+<footer><center>COPYRIGHT@ 2022 SAHDEV RAJPUT</center></footer>
+</body>
+</html>
