@@ -1,2 +1,6 @@
 # HTML-Forms
-A Complete guide about HTML Forms, all of its methods and types . A beautiful Website using basic HTML tags and CSS Styling.
+>#About this Project:
+I have tried all forms components and methods and various ways of validation in form. This is one of the basic project that i had created when i first acquainted with HTML Forms. This was my first time when i have used any type of forms in my website. It was just a way to get familiar with it. 
+
+
+>Created By Sahdev Rajput , DATED: 22/09/2022
